@@ -1,4 +1,4 @@
-tfrom unittest.mock import patch, MagicMock
+from unittest.mock import patch, MagicMock
 from airflow.models import DagBag
 from dags.firstdag import capture_api_response
 
